@@ -74,7 +74,7 @@ body {
   align-items: center;
   padding: 24px 156px 24px 940px;
   display: flex;
-  gap: 40px
+  gap: 40px;
 }
 
 .adress-info {
@@ -87,6 +87,12 @@ body {
   letter-spacing: 0.32px;
   display: flex;
   gap: 40px;
+
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
+
 }
 .button {
   color: var(--color-text);
@@ -226,6 +232,7 @@ margin-bottom: 72px;
 .footer {
   background-color: var(--color-titles-body);
   padding: 100px 0;
+  display: inline-block;
 }
   
 
