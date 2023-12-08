@@ -235,12 +235,11 @@ margin-bottom: 72px;
 .footer {
   background-color: var(--color-titles-body);
   padding: 100px 0;
-  display: inline-block;
 }
   
 
 .logo-footer {
-  padding: 101,5px 1169px 189,5px 156px;
+  padding: 21px 18px;
   display: inline-block;
 }
 
@@ -365,7 +364,7 @@ padding: 120px 0;
 
 .section-three-image
 {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
   display: block;
 }
 
