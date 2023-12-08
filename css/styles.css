@@ -59,6 +59,7 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .adress {
   font-style: normal;
@@ -101,11 +102,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.64px;
-background: var(--color-text);
+background-color:  var(--color-text);
 cursor: pointer;
 padding: 356px 635px 188px 636px;
-width: 169px;
 height: 56px;
+display: block;
+min-width: 169px;
+border: none;
 padding: 16px, 32px, 16px, 32px;
 border-radius: 4px;
 gap: 10px;
@@ -155,6 +158,7 @@ font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
 padding: 188px 472px 292px 472px;
+max-width: 496px;
 }
 
 .subtitle-web-studio-blue
@@ -223,21 +227,22 @@ border-bottom: 1px solid #e7e9fc;
 
 .nav-links {
 display: flex;
+align-items: center;
 gap: 40px;
-padding: 24px 832px 24px 347px;
-justify-content: flex-start;
 }
+
 
 .top-line-adress
 {
   display: flex;
   align-items: center;
+  gap: 40px;
   padding: 24px 156px 24px 940px;
 }
 
 .logo-top-line
 {
-  display: flex;
+  margin-right: 76px;
   padding: 25,5px 1169px 25,5px 156px;
   justify-content: flex-start;
 }
@@ -246,6 +251,7 @@ justify-content: flex-start;
 width: 1440px;
 height: 600px;
 top: 72px;
+padding: 120px 0;
 
 }
 
@@ -253,6 +259,7 @@ top: 72px;
 {
 display: flex;
 padding: 792px 156px 1696px 156px;
+padding: 120px 0;
 gap: 24px;
 }
 
@@ -272,7 +279,10 @@ gap: 24px;
 }
 
 .container {
-  width: 1200px;
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .list-grid {
@@ -300,4 +310,5 @@ gap: 24px;
 .section-portfolio
 {  padding: 96px 0 120px 0;
 }
+
 
