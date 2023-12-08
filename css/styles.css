@@ -38,6 +38,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -63,6 +64,10 @@ body {
 }
 .adress {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 156px 24px 940px;
 }
 
 .adress-info {
@@ -104,10 +109,9 @@ line-height: 150%;
 letter-spacing: 0.64px;
 background-color:  var(--color-text);
 cursor: pointer;
-padding: 356px 635px 188px 636px;
-height: 56px;
 display: block;
 min-width: 169px;
+height: 56px;
 border: none;
 padding: 16px, 32px, 16px, 32px;
 border-radius: 4px;
@@ -132,6 +136,7 @@ background-color: #404bbf;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .two-title{
 color: var(--color-titles-body);
@@ -174,6 +179,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
 padding: 1016px 558px 1536px 559px;
+margin-bottom: 72px;
 
 }
 
@@ -231,27 +237,19 @@ align-items: center;
 gap: 40px;
 }
 
-
-.top-line-adress
-{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 24px 156px 24px 940px;
-}
-
 .logo-top-line
 {
   margin-right: 76px;
   padding: 25,5px 1169px 25,5px 156px;
   justify-content: flex-start;
+
 }
 
 .hero-image {
 width: 1440px;
 height: 600px;
 top: 72px;
-padding: 120px 0;
+padding: 188px 0;
 
 }
 
@@ -266,7 +264,7 @@ gap: 24px;
 .section-three
 {
 display: flex;
-padding: 1016px 156px 1164px 156px;
+padding-bottom: 120px;
 gap: 24px;
 
 
