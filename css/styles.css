@@ -102,6 +102,13 @@ line-height: 150%;
 letter-spacing: 0.64px;
 background: var(--color-text);
 cursor: pointer;
+padding: 356px 635px 188px 636px;
+width: 169px;
+height: 56px;
+padding: 16px, 32px, 16px, 32px;
+border-radius: 4px;
+gap: 10px;
+
 }
 .order-service-button:hover,
 :focus
@@ -134,6 +141,7 @@ letter-spacing: 0.4px;
 .section-light
 {
 background-color: var(--color-light);
+
 }
 
 .title-web-studio
@@ -145,6 +153,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
+padding: 188px 472px 292px 472px;
 }
 
 .subtitle-web-studio-blue
@@ -159,6 +168,7 @@ line-height: 111.111%;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
+padding: 1016px 558px 1536px 559px;
 
 }
 
@@ -178,10 +188,20 @@ line-height: 1.11;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  padding: 140px 1020px 100px 156px;
+  display: flex;
+
 }
 .footer {
   background-color: var(--color-titles-body);
 }
+  
+
+.logo-footer {
+  padding: 101,5px 1169px 189,5px 156px;
+}
+
+
 
 .team-member {
     background-color: #ffffffff;
@@ -189,4 +209,86 @@ line-height: 1.11;
 
 .background-white {
     background-color: #ffffffff;
+}
+
+.top-line {
+display: flex;
+padding: 24px 156px 24px 156px;
+border: 0px, 0px, 1px, 0px;
+
+  
+}
+
+.nav-links {
+display: flex;
+gap: 40px;
+padding: 24px 832px 24px 347px;
+justify-content: flex-start;
+}
+
+.top-line-adress
+{
+  display: flex;
+  align-items: center;
+  padding: 24px 156px 24px 940px;
+}
+
+.logo-top-line
+{
+  display: flex;
+  padding: 25,5px 1169px 25,5px 156px;
+  justify-content: flex-start;
+}
+
+.hero-image {
+width: 1440px;
+height: 600px;
+top: 72px;
+
+}
+
+.section-two
+{
+display: flex;
+padding: 792px 156px 1696px 156px;
+gap: 24px;
+}
+
+.section-three
+{
+display: flex;
+padding: 1016px 156px 1164px 156px;
+gap: 24px;
+
+
+}
+
+.section-four{
+display: flex;
+padding: 232px 156px 120px 156px;
+gap: 24px;
+}
+
+.container {
+  width: 1200px;
+}
+
+.list-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.item-grid {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.buttons-list
+{
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  padding: 168px 427px 1860px 427px;
 }
