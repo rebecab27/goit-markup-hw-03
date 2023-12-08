@@ -208,6 +208,7 @@ margin-bottom: 72px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  text-align: center;
 }
 .p-footer {
   color: var(--color-light);
@@ -230,12 +231,15 @@ margin-bottom: 72px;
 
 .logo-footer {
   padding: 101,5px 1169px 189,5px 156px;
+  display: inline-block;
 }
 
 
 
 .team-member {
     background-color: #ffffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px 4px;
 }
 
 .background-white {
