@@ -372,6 +372,7 @@ padding: 120px 0;
 
 .portfolio-image
 {
+  width: calc((100% - 48px) / 3);
   display: block;
 }
 
