@@ -17,6 +17,8 @@ body {
 }
 .link {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .link:hover
@@ -61,6 +63,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.32px;
   padding: 24px 0;
+  display: flex;
+  gap: 40px
 }
 .adress {
   font-style: normal;
@@ -68,6 +72,8 @@ body {
   align-items: center;
   gap: 40px;
   padding: 24px 156px 24px 940px;
+  display: flex;
+  gap: 40px
 }
 
 .adress-info {
@@ -90,6 +96,10 @@ body {
   font-weight: 500;
   padding: 12px 24px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px ;
+  border: 1px solid #e7e9fcl
 }
 
 .button:hover,
@@ -201,10 +211,12 @@ margin-bottom: 72px;
   letter-spacing: 0.32px;
   padding: 140px 1020px 100px 156px;
   display: flex;
+  max-width: 264px;
 
 }
 .footer {
   background-color: var(--color-titles-body);
+  padding: 100px 0;
 }
   
 
@@ -227,7 +239,6 @@ display: flex;
 padding: 24px 156px 24px 156px;
 border: 0px, 0px, 1px, 0px;
 border-bottom: 1px solid #e7e9fc;
-
   
 }
 
@@ -272,8 +283,8 @@ gap: 24px;
 
 .section-four{
 display: flex;
-padding: 232px 156px 120px 156px;
 gap: 24px;
+padding: 120px 0;
 }
 
 .container {
@@ -303,6 +314,10 @@ gap: 24px;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
 }
 
 .section-portfolio
