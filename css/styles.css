@@ -135,8 +135,9 @@ color: background-color: #404bbf;
 background-color: #404bbf;
 }
 
-.section-dark
-{ background-color: var(--color-titles-body);}
+.section-darky
+{ background-color: var(--color-titles-body);
+}
 
 .three-title {
   background-color: #ffffffff;
@@ -147,8 +148,9 @@ background-color: #404bbf;
   line-height: 120%;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+  text-align: center;
 }
-.two-title{
+.two-title {
 color: var(--color-titles-body);
 font-size: 20px;
 font-style: normal;
@@ -324,4 +326,9 @@ padding: 120px 0;
 {  padding: 96px 0 120px 0;
 }
 
+container-list
+{
+  border-radius: 0px 0px 4px 4px 4px;
+  padding: 32px 0 ;
+}
 
