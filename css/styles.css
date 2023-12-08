@@ -4,6 +4,7 @@
   --color-titles-body: #2e2f42;
   --color-p-body: #434455;
   --white-color: #ffffffff;
+  --button-color:  #e7e9fc;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
+ 
 }
 
 .link:hover
@@ -84,6 +86,8 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+  display: flex;
+  gap: 40px;
 }
 .button {
   color: var(--color-text);
@@ -99,13 +103,15 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 72px ;
-  border: 1px solid #e7e9fcl
+  border: 1px solid var(--button-color);
+  
 }
 
 .button:hover,
 :focus {
   color: #ffffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .order-service-button
@@ -318,7 +324,8 @@ padding: 120px 0;
   margin-bottom: 72px;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: 1px solid var(--button-color);
+  
 
 }
 
@@ -326,9 +333,17 @@ padding: 120px 0;
 {  padding: 96px 0 120px 0;
 }
 
-container-list
+.container-list
 {
   border-radius: 0px 0px 4px 4px 4px;
   padding: 32px 0 ;
+
+}
+
+.container-grid
+{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
