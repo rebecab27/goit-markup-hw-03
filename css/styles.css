@@ -160,6 +160,7 @@ background-color: #404bbf;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
   text-align: center;
+  padding: 24px 20px;
 }
 .two-title {
 color: var(--color-titles-body);
@@ -169,6 +170,7 @@ font-weight: 500;
 line-height: 120%;
 letter-spacing: 0.4px;
 margin-bottom: 8px;
+padding: 24px 20px;
 }
 
 .section-light
@@ -186,7 +188,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
-padding: 188px 472px 292px 472px;
+padding: 60px 56px;
 max-width: 496px;
 }
 
@@ -202,7 +204,7 @@ line-height: 111.111%;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
-padding: 1016px 558px 1536px 559px;
+padding: 40px 36px;
 margin-bottom: 72px;
 
 }
@@ -215,6 +217,7 @@ margin-bottom: 72px;
   line-height: 150%;
   letter-spacing: 0.32px;
   text-align: center;
+  padding: 24px 16px;
 }
 .p-footer {
   color: var(--color-light);
@@ -224,9 +227,9 @@ margin-bottom: 72px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
-  padding: 140px 1020px 100px 156px;
   display: flex;
   max-width: 264px;
+  padding: 24px 16px;
 
 }
 .footer {
