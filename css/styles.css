@@ -248,11 +248,13 @@ margin-bottom: 72px;
 
 .team-member {
     background-color: #ffffffff;
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     display: block;
-    
 }
+
+    
+
 
 .background-white {
     background-color: #ffffffff;
@@ -398,5 +400,5 @@ padding: 120px 0;
 
 .footer-container
 {
-  display: inline-block,
+  display: inline-block;
 }
