@@ -393,3 +393,8 @@ padding: 120px 0;
   justify-content: space-between;
   align-items: center;
 }
+
+.footer-container
+{
+  display: inline-block,
+}
