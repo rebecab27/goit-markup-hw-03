@@ -29,8 +29,6 @@ body {
 }
 .link {
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: 16px;
  
 }
 
@@ -83,9 +81,9 @@ body {
   font-style: normal;
   display: flex;
   align-items: center;
-  padding: 24px 156px 24px 940px;
   display: flex;
   gap: 40px;
+  padding: 24px 16px;
 }
 
 .adress-info {
@@ -98,6 +96,7 @@ body {
   letter-spacing: 0.32px;
   display: flex;
   gap: 40px;
+  
 
 .adress-list {
   display: flex;
@@ -200,6 +199,8 @@ font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
 padding: 60px 56px;
+align-items: center;
+justify-content: center;
 max-width: 496px;
 }
 
@@ -214,7 +215,6 @@ font-weight: 700;
 line-height: 111.111%;
 letter-spacing: 0.72px;
 text-transform: capitalize;
-line-height: 1.11;
 padding: 40px 36px;
 margin-bottom: 72px;
 
@@ -258,7 +258,6 @@ margin-bottom: 72px;
 
 .team-member {
     background-color: #ffffffff;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px 4px 4px;
     display: block;
 }
@@ -377,14 +376,12 @@ padding: 120px 0;
 
 .section-three-image
 {
-  width: calc((100% - 48px) / 3);
   display: block;
 }
 
 
 .portfolio-image
 {
-  width: calc((100% - 48px) / 3);
   display: block;
 }
 
