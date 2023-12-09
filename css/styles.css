@@ -260,7 +260,10 @@ margin-bottom: 72px;
 
 .team-member {
     background-color: #ffffffff;
-    border-radius: 0px 0px 4px 4px 4px 4px;
+    width: calc((100% - 72px) / 4);
+    width: 100%;
+    min-width: 264px;
+    border-radius: 0px 0px 4px 4px;
     display: block;
     
 }
@@ -389,6 +392,9 @@ padding: 120px 0;
 .portfolio-image
 {
   display: block;
+  width: calc((100% - 48px) / 3);
+  width: 100%;
+  min-width: 264px;
 }
 
 .visually-hidden {
@@ -419,4 +425,6 @@ padding: 120px 0;
 .section-two-element
 {
   width: calc((100% - 72px) / 4);
+  width: 100%;
+  min-width: 264px;
 }
