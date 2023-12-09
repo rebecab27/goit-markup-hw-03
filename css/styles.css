@@ -259,7 +259,7 @@ margin-bottom: 72px;
 .team-member {
     background-color: #ffffffff;
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px 4px;
     display: block;
 }
 
@@ -363,7 +363,7 @@ padding: 120px 0;
 
 .container-list
 {
-  border-radius: 0px 0px 4px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
   padding: 32px 0 ;
 
 }
