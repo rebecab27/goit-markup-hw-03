@@ -348,6 +348,8 @@ padding: 120px 0;
 .item-grid {
   margin-left: 10px;
   margin-top: 10px;
+  width: calc((100% - 48px) / 3);
+  
 
 
 }
