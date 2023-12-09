@@ -7,15 +7,29 @@
   --button-color:  #e7e9fc;
 }
 
+*
+{
+  margin: 0;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-p-body);
   background-color: var(--white-color);
 }
 
+
 .list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -69,6 +83,13 @@ body {
   display: flex;
   gap: 40px
 }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  }
+  
+
 .adress {
   font-style: normal;
   display: flex;
@@ -89,10 +110,6 @@ body {
   display: flex;
   gap: 40px;
 
-.adress-list {
-  display: flex;
-  gap: 40px;
-}
 
 }
 .button {
@@ -161,7 +178,6 @@ background-color: #404bbf;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
   text-align: center;
-  padding: 24px 20px;
 }
 .two-title {
 color: var(--color-titles-body);
@@ -205,8 +221,11 @@ line-height: 111.111%;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
+display: flex;
+justify-content: center;
 padding: 40px 36px;
 margin-bottom: 72px;
+align-items: center;
 
 }
 
@@ -218,7 +237,6 @@ margin-bottom: 72px;
   line-height: 150%;
   letter-spacing: 0.32px;
   text-align: center;
-  padding: 24px 16px;
 }
 .p-footer {
   color: var(--color-light);
@@ -261,18 +279,13 @@ margin-bottom: 72px;
 }
 
 .top-line {
-display: flex;
 padding: 24px 156px 24px 156px;
+display: flex;
 border: 0px, 0px, 1px, 0px;
 border-bottom: 1px solid #e7e9fc;
   
 }
 
-.nav-links {
-display: flex;
-align-items: center;
-gap: 40px;
-}
 
 .logo-top-line
 {
@@ -283,33 +296,28 @@ gap: 40px;
 }
 
 .hero-image {
-width: 1440px;
-height: 600px;
-top: 72px;
 padding: 188px 0;
+display: flex;
 
 }
 
 .section-two
 {
-display: flex;
-padding: 792px 156px 1696px 156px;
+  display: flex;
 padding: 120px 0;
-gap: 24px;
+
 }
 
 .section-three
 {
-display: flex;
+  display: flex;
 padding-bottom: 120px;
-gap: 24px;
 
 
 }
 
 .section-four{
-display: flex;
-gap: 24px;
+  display: flex;
 padding: 120px 0;
 }
 
@@ -401,4 +409,10 @@ padding: 120px 0;
 .footer-container
 {
   display: inline-block;
+}
+
+.section
+{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
